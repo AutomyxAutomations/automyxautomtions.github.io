@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact & Book — Automyx Automations</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body class="antialiased text-slate-900 bg-white">
+  <header class="border-b">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+      <a href="/index.html" class="font-semibold">Automyx</a>
+    </div>
+  </header>
+
+  <main class="max-w-4xl mx-auto px-6 py-12">
+    <h1 class="text-3xl font-extrabold">Book a Free Automation Audit</h1>
+    <p class="mt-2 text-slate-600">Tell us a little about your biggest operational pain. We'll audit and return a prioritized list of automation opportunities.</p>
+
+    <form id="contact-form" class="mt-6 grid grid-cols-1 gap-4">
+      <input name="name" placeholder="Full name" required class="p-3 border rounded">
+      <input name="email" type="email" placeholder="Work email" required class="p-3 border rounded">
+      <input name="company" placeholder="Company" class="p-3 border rounded">
+      <select name="role" class="p-3 border rounded">
+        <option>Founder</option>
+        <option>SaaS / Ops</option>
+        <option>Agency</option>
+        <option>Other</option>
+      </select>
+      <textarea name="notes" rows="4" placeholder="Briefly describe your biggest automation opportunity" class="p-3 border rounded"></textarea>
+
+      <div class="flex gap-3">
+        <button type="submit" class="px-4 py-2 bg-indigo-600 text-white rounded">Request Audit</button>
+        <a href="#calendar" class="px-4 py-2 border rounded text-slate-700">Book a time</a>
+      </div>
+    </form>
+
+    <section id="calendar" class="mt-10">
+      <h3 class="font-semibold">Schedule a call</h3>
+      <p class="mt-2 text-slate-600">Prefer to pick a time now? Use our calendar to schedule a 30-minute audit call.</p>
+      <div class="mt-4 border rounded p-4 text-sm text-slate-600">[Calendly placeholder] — integrate your booking link here.</div>
+    </section>
+
+    <section class="mt-10">
+      <h3 class="font-semibold">What happens next</h3>
+      <ol class="list-decimal list-inside mt-3 text-slate-600">
+        <li>We review your submission and schedule a short discovery call.</li>
+        <li>We run a 48-hour audit and return a prioritized automation plan.</li>
+        <li>We scope the project with clear ROI and timelines.</li>
+      </ol>
+    </section>
+  </main>
+
+  <script src="/scripts.js"></script>
+</body>
+</html>
