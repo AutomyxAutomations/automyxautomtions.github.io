@@ -35,7 +35,7 @@ Helps businesses discover and engage with Automyx's services by clearly communic
 ## Project Structure
 
 ```
-automyxautomtions.github.io/
+automyxautomations.github.io/
 ├── index.html              # Home page with hero, services overview, and CTAs
 ├── services.html           # Detailed services page with problem-solution-outcome format
 ├── how-it-works.html       # Process explanation (discovery to support)
@@ -56,8 +56,8 @@ automyxautomtions.github.io/
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/AutomyxAutomations/automyxautomtions.github.io.git
-   cd automyxautomtions.github.io
+   git clone https://github.com/AutomyxAutomations/automyxautomations.github.io.git
+   cd automyxautomations.github.io
    ```
 
 2. No build step required—files are static.
